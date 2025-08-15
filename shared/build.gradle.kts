@@ -79,3 +79,10 @@ android {
     }
 }
 
+sqldelight {
+    databases {
+        create("AppDatabase") {
+            packageName.set("database")
+        }
+    }
+}
